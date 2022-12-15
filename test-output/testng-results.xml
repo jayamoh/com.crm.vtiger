@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -191,6 +192,162 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </reporter-output>
         </test-method> <!-- test4 -->
       </class> <!-- com.crm.testClassesPractice.practiceParallelExecution -->
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="328616" started-at="2022-12-15T09:59:24 IST" finished-at="2022-12-15T10:04:52 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="CreateContactsWithOrganizationNameTest.createContactsWithOrganizationNameTest(java.lang.String)[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="createContactsWithOrganizationNameTest" class="com.crm.contacts.CreateContactsWithOrganizationNameTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="328616" started-at="2022-12-15T09:59:24 IST" finished-at="2022-12-15T10:04:52 IST">
+      <class name="com.crm.organization.CreateOrganizationTest">
+        <test-method status="PASS" signature="classSetup(java.lang.String)[pri:0, instance:com.crm.organization.CreateOrganizationTest@1a38c59b]" name="classSetup" is-config="true" duration-ms="13971" started-at="2022-12-15T10:02:05 IST" finished-at="2022-12-15T10:02:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="methodSetup()[pri:0, instance:com.crm.organization.CreateOrganizationTest@1a38c59b]" name="methodSetup" is-config="true" duration-ms="10519" started-at="2022-12-15T10:02:19 IST" finished-at="2022-12-15T10:02:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="createOrganizationTest(java.lang.String)[pri:0, instance:com.crm.organization.CreateOrganizationTest@1a38c59b]" name="createOrganizationTest" duration-ms="54315" started-at="2022-12-15T10:02:29 IST" finished-at="2022-12-15T10:03:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.crm.organization.CreateOrganizationTest@1a38c59b]" name="methodTearDown" is-config="true" duration-ms="6811" started-at="2022-12-15T10:03:23 IST" finished-at="2022-12-15T10:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.crm.organization.CreateOrganizationTest@1a38c59b]" name="classTearDown" is-config="true" duration-ms="1041" started-at="2022-12-15T10:03:30 IST" finished-at="2022-12-15T10:03:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.crm.organization.CreateOrganizationTest -->
+      <class name="com.crm.contacts.CreateContactsWithOrganizationNameTest">
+        <test-method status="PASS" signature="classSetup(java.lang.String)[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="classSetup" is-config="true" duration-ms="12195" started-at="2022-12-15T10:03:31 IST" finished-at="2022-12-15T10:03:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="methodSetup()[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="methodSetup" is-config="true" duration-ms="19554" started-at="2022-12-15T10:03:44 IST" finished-at="2022-12-15T10:04:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="createContactsWithOrganizationNameTest(java.lang.String)[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="createContactsWithOrganizationNameTest" duration-ms="45085" started-at="2022-12-15T10:04:03 IST" finished-at="2022-12-15T10:04:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactsWithOrganizationNameTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="methodTearDown" is-config="true" duration-ms="3209" started-at="2022-12-15T10:04:48 IST" finished-at="2022-12-15T10:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.crm.contacts.CreateContactsWithOrganizationNameTest@7f77e91b]" name="classTearDown" is-config="true" duration-ms="975" started-at="2022-12-15T10:04:51 IST" finished-at="2022-12-15T10:04:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.crm.contacts.CreateContactsWithOrganizationNameTest -->
+      <class name="com.crm.leads.CreateLeadsTest">
+        <test-method status="PASS" signature="classSetup(java.lang.String)[pri:0, instance:com.crm.leads.CreateLeadsTest@448ff1a8]" name="classSetup" is-config="true" duration-ms="11888" started-at="2022-12-15T10:01:06 IST" finished-at="2022-12-15T10:01:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="methodSetup()[pri:0, instance:com.crm.leads.CreateLeadsTest@448ff1a8]" name="methodSetup" is-config="true" duration-ms="8895" started-at="2022-12-15T10:01:18 IST" finished-at="2022-12-15T10:01:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="createLeadsTest(java.lang.String)[pri:0, instance:com.crm.leads.CreateLeadsTest@448ff1a8]" name="createLeadsTest" duration-ms="30657" started-at="2022-12-15T10:01:27 IST" finished-at="2022-12-15T10:01:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadsTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.crm.leads.CreateLeadsTest@448ff1a8]" name="methodTearDown" is-config="true" duration-ms="3857" started-at="2022-12-15T10:01:58 IST" finished-at="2022-12-15T10:02:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.crm.leads.CreateLeadsTest@448ff1a8]" name="classTearDown" is-config="true" duration-ms="3156" started-at="2022-12-15T10:02:02 IST" finished-at="2022-12-15T10:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.crm.leads.CreateLeadsTest -->
+      <class name="com.crm.products.CreateProductsWithVendorTest">
+        <test-method status="PASS" signature="classSetup(java.lang.String)[pri:0, instance:com.crm.products.CreateProductsWithVendorTest@7bb58ca3]" name="classSetup" is-config="true" duration-ms="38989" started-at="2022-12-15T09:59:26 IST" finished-at="2022-12-15T10:00:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method status="PASS" signature="methodSetup()[pri:0, instance:com.crm.products.CreateProductsWithVendorTest@7bb58ca3]" name="methodSetup" is-config="true" duration-ms="19706" started-at="2022-12-15T10:00:05 IST" finished-at="2022-12-15T10:00:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="createProductsWithVendorTest(java.lang.String)[pri:0, instance:com.crm.products.CreateProductsWithVendorTest@7bb58ca3]" name="createProductsWithVendorTest" duration-ms="35920" started-at="2022-12-15T10:00:24 IST" finished-at="2022-12-15T10:01:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductsWithVendorTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.crm.products.CreateProductsWithVendorTest@7bb58ca3]" name="methodTearDown" is-config="true" duration-ms="4284" started-at="2022-12-15T10:01:00 IST" finished-at="2022-12-15T10:01:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.crm.products.CreateProductsWithVendorTest@7bb58ca3]" name="classTearDown" is-config="true" duration-ms="1338" started-at="2022-12-15T10:01:05 IST" finished-at="2022-12-15T10:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- com.crm.products.CreateProductsWithVendorTest -->
+>>>>>>> branch 'master' of https://github.com/vannurV/Amandla_SeleniumFramework.git
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

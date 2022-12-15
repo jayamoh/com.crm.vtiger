@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>com.crm.vtiger1</name>
+=======
+	<name>com.crm.amandla</name>
+>>>>>>> branch 'master' of https://github.com/vannurV/Amandla_SeleniumFramework.git
 	<comment></comment>
 	<projects>
 	</projects>

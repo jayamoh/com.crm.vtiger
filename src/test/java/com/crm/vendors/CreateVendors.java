@@ -12,8 +12,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateVendors {
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/vannurV/Amandla_SeleniumFramework.git
 	public static void main(String[] args)
 	{
 		int rdmnum=new Random().nextInt(100);
