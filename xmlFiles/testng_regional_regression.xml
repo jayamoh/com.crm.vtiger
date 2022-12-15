@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">               <!-- regional regression testing (to test an specific test method) -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class
+				name="com.crm.contacts.CreateContactsWithOrganizationNameTest">
+				<methods>
+					<include name="createContactsWithOrganizationNameTest" /> <!--we can include,exclude multiple methods here -->
+				</methods>
+		</class>  
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
