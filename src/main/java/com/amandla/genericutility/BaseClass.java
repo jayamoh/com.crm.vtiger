@@ -18,6 +18,7 @@ import com.amandla.objectrepository.ProductInformationPage;
 /**   
  * this class contains all the configurations methods of TestNg
  * @author VANNUR
+ * workspace2
  *
  */
 public class BaseClass {
