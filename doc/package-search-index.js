@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.crm.calenderpopup"},{"l":"com.crm.contacts"},{"l":"com.crm.leads"},{"l":"com.crm.organization"},{"l":"com.crm.products"},{"l":"com.crm.testClassesPractice"},{"l":"com.crm.vendors"},{"l":"com.vtiger1.genericutility"},{"l":"com.vtiger1.objectrepository"}];updateSearchResults();
